@@ -1,0 +1,5 @@
+git push -f
+
+or
+
+git push --set-upstream origin "branch_name_here" -f

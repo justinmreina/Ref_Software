@@ -1,0 +1,19 @@
+@brief 		Cygwin reference and notes on use
+@details 	Common content & Linux helpers
+@auth 		Justin Reina
+@date 		12/24/17
+
+@section 	Startup Modification
+	1. Modify startup script
+		C:\sw\cygwin64\home\Justin-new\.bash_profile
+	2. Run Cygwin. Wait for completion (pick some file system flag to signal completion, perhaps C:\complete.txt)
+	3. Read and process the Cygwin results
+	4. Restore the startup script
+	5. Exit!
+
+@section 	Credential Storage
+	git config credential.helper store	(usr & pswd)
+
+@section 	Remove Staged File
+	git reset HEAD -- 'file name'
+

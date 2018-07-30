@@ -1,0 +1,17 @@
+From your workspace directory, the full path the sub-directory that contains the settings file is:
+
+    .metadata/.plugins/org.eclipse.core.runtime/.settings
+
+Within that sub-directory, find the file:
+
+    org.eclipse.cdt.core.prefs
+
+Within that file, find the line that has this:
+
+    org.eclipse.cdt.core.formatter.lineSplit=???
+
+Insert the value you want (134 targ)
+
+
+Note:
+	org.eclipse.cdt.core.formatter.lineSplit=x is line 158

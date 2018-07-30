@@ -1,0 +1,9 @@
+https://electronics.stackexchange.com/questions/181825/how-can-you-add-custom-supply-symbols-in-eagle
+
+Present solution, use std rails and remove names, replacing with text (e.g '+6V' becomes 'VDD/2'. Store in external log, and declare as open for permanent resolution
+
+https://learn.adafruit.com/ktowns-ultimate-creating-parts-in-eagle-tutorial/introduction
+
+https://learn.sparkfun.com/tutorials/making-custom-footprints-in-eagle
+
+https://intranet.ee.ic.ac.uk/t.clarke/EAGLE/The%20EAGLE%20Guide.pdf

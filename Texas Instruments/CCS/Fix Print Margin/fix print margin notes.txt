@@ -1,0 +1,9 @@
+1) The Print Margin set under General -> Editors -> Text Editors didn't apply to all type of file. E.g. when the Print Margin was set to 132 if edited a linker .map file the print margin was displayed at 132 characters, but if edited a .c source file the print margin was displayed at 80 characters.
+
+
+	General->Editors->TextEditors
+
+2) When opened the .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.cdt.core.prefs file the org.eclipse.cdt.core.formatter.lineSplit was set at a value of 80. When org.eclipse.cdt.core.formatter.lineSplit was changed to 132, and the CCS restarted the displayed print margin in .c source files was then 132.
+
+	.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.cdt.core.prefs
+		158: 'org.eclipse.cdt.core.formatter.lineSplit 134'

@@ -1,0 +1,5 @@
+@brief 		detect which keys are being pressed during a script
+@details 	used for gitk opening (e.g. hold 'Ctrl' when opening Cygwin Bash)
+
+@ref		https://superuser.com/questions/248517/show-keys-pressed-in-linux
+
